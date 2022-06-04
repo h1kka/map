@@ -1,0 +1,170 @@
+
+		html{
+			height: 100%;
+		}
+		@font-face{
+			src:url(18473.ttf);
+			font-family: my-font;
+		}
+		body{
+			font-family: my-font;
+			color: white;
+			height: 100%;
+		}
+		/*главная*/
+		.school{
+			position: absolute;
+			top:20%;
+			left: 70%
+		}
+		.mastery{
+			top:60%;
+			position: absolute;
+			left:40%;
+		}
+		.main_player{
+			position: absolute;
+			top:50%;
+			left: 50%;
+			transition:  0.8s;
+		}
+		.arena{
+			position: absolute;
+			top:20%;
+			left: 30%;
+		}
+		
+
+		/*2 локация*/
+		.loc2_teacher {
+			height: 100px;
+			width: 80px;
+			margin-left: 55%; 
+			position: absolute; 
+			margin-top: 10%;
+            background-image: url(female_stand.png);
+            background-size: 100% 100%;
+		}
+		.loc2_talk {
+			position: absolute;
+			width: 300px;
+			margin-left: 56%;
+			display: none;
+			background-image: url(talk.png);
+			background-size: 100% 100%;
+			color: black;
+			padding: 50px;
+		}
+
+		.loc2_pravilno{
+			background-color: gray; width: 100px; position: absolute;
+		}
+
+		.loc2_player {
+			left:30%; top:40%; position: absolute;
+		}
+
+		.loc2_variants {
+			background-color: gray; width: 100px; position: absolute;
+		}
+		.loc2_variants_block{
+			display: flex; position: absolute; top: 70%;left: 2%; display:none;
+		}
+		.loc2_timeSize {
+			font-size: 30px
+		}
+		.loc2_pole {
+			margin-top: 25%;
+			position: absolute;
+		}
+		
+		/*1 локация*/
+		.loc1-timeSize{
+			font-size: 30px;
+		}
+
+		.loc1_teacher{
+			height: 100px;
+			width: 80px;
+			margin-left: 55%;
+			position: absolute;
+			margin-top: 10%;
+			background-image: url(teacher.png);
+			background-size: 100% 100%;
+		}
+		
+		.loc1_talk{
+			position: absolute;
+			width: 300px;
+			margin-left: 56%;
+			display: none;
+			background-image: url(talk.png);
+			background-size: 100% 100%;
+			color: black;
+			padding: 50px;
+		}
+
+		.loc1_pravilno{
+			background-color: green; width: 100px; position: absolute;
+		}
+
+		.loc1_player{
+			left: 30%; top: 40%; position: absolute; width: 80px; height: 110px;
+		}
+
+		.loc1_variants{
+			background-color: green; width: 100px; position: absolute;
+		}
+
+		.loc1_variants_block{
+			display: flex; position: absolute; top: 70%; left: 2%; display: none;
+		}
+
+		/*ласт локация*/ 
+		.loc3_timeSize{
+			font-size: 30px;
+		}
+		.loc3_teacher{
+			height: 140px;
+			width: 120px;
+			margin-left: 70%;
+			position: absolute;
+			margin-top: 20%;
+			background-image: url(teacher.jpg);
+			background-size: 100% 100%;
+		}
+		.loc3_pravilno{
+			background-color: blue; width: 100px; position: absolute;
+		}
+		.loc3_variants{
+			background-color: blue; width: 100px; position: absolute;
+		}
+		.loc3_variants_block{
+			display: flex; position: absolute; top: 70%; left: 2%; display: none;
+		}
+		.loc3_player{
+			left: 70%; top: 80%; position: absolute; width: 120px; height: 140px;
+		}
+		.loc3_talk{
+			position: absolute;
+			width: 300px;
+			margin-left: 74%;
+			margin-top: 13%;
+			display: none;
+			background-image: url(talk.png);
+			background-size: 100% 100%;
+			color: black; 
+			padding: 50px;
+		}
+
+		.sword {
+			width: 130px; border: white 2px solid; display: none
+		}
+
+		.nojni {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.shield {
+			width: 130px; border: white 2px solid; display: none
+		}
+	
